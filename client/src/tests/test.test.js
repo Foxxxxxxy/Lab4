@@ -9,6 +9,7 @@ c.mockImplementation(() => 'c');
 initSub.mockImplementation(() => 3);
 initMul.mockImplementation(() => 3);
 
+
  describe('sum', () => {
     it('should return 4 for arguments 1 and 2', () => {
        expect(sum(1, 2)).toBe(4);
@@ -32,4 +33,5 @@ initMul.mockImplementation(() => 3);
        expect(mul()).toBe(15);
     });
  }); 
+
 
