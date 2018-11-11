@@ -1,6 +1,7 @@
 var Calculator = require('../Calculator.js');
 var add = Calculator.add;
 var substract = Calculator.substract;
+var multiply = Calculator.multiply;
 
 it('should add two numbers', function(){
     var expectedResult = 15;
@@ -18,3 +19,10 @@ it('should substract two numbers', function(){
     }
 });
 
+it('should multiply two numbers', function(){
+    var expectedResult = 50;
+    var result = multiply(10, 5);
+    if(result!==expectedResult){
+        throw new Error(`Expected ${expectedResult}, but got ${result}`);
+    }
+});
