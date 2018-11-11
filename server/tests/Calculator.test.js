@@ -11,8 +11,8 @@ it('should add two numbers', function(){
 });
 
 it('should substract two numbers', function(){
-    var expectedResult = 15;
-    var result = add(10, 5);
+    var expectedResult = 5;
+    var result = substract(10, 5);
     if(result!==expectedResult){
         throw new Error(`Expected ${expectedResult}, but got ${result}`);
     }
