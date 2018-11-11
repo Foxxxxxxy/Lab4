@@ -6,3 +6,6 @@ export function c(){
     return 'b';
 }
 
+export function initSub () {
+    return 6;
+}
