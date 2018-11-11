@@ -9,3 +9,7 @@ export function c(){
 export function initSub () {
     return 6;
 }
+
+export function initMul(){
+    return 2;
+}
