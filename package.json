@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "client-install": "npm install --prefix client",
     "test-server": "mocha tests/*.test.js",
     "test-client": "npm test --prefix client",
     "test": "concurrently \"npm run test-server\" \"npm run test-client\"",
