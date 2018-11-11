@@ -5,4 +5,4 @@
 3. Після клонування проекту вікрити папку з проектом.
 4. Ввести команду "npm install" у powershell
 5. Ввести команду "npm run" client install у powershell
-6. Ввести команду "npm run" dev у powershell
+6. Ввести команду "npm run" dev у powershell.
